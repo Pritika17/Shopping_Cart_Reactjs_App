@@ -1,0 +1,87 @@
+.card .image-box img{
+    width: 250px;
+    padding-bottom: 2rem;
+}
+
+.card{
+    margin: 2rem;
+    box-shadow: rgba(255, 42, 112, 0.3) 0px 1px 2px 0px, rgba(255, 42, 112, 0.15) 0px 1px 3px 1px;
+    border-radius: 4rem;
+    padding: 3rem;
+}
+
+.details{
+    font-size: 1.6rem;
+}
+
+.details .title{
+    margin-bottom: 1rem;
+}
+
+.details button{
+    padding: .5rem 1rem;
+    background-color: rgb(225, 42, 112);
+    border: 1.5px transparent solid;
+    color: white;
+    border-radius: 2rem;
+    cursor: pointer;
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-top: 1.5rem;
+}
+
+.details button:hover{
+    background-color: white;
+    border: #e12a70 1.5px solid;
+    color: black;
+    transition: .2s;
+    transform: translateY(-.5rem);
+    box-shadow: rgba(255, 42, 112, 0.4) 0px 5px, rgba(255, 42, 112, 0.3) 0px 2px, rgba(255, 42, 112, 0.2) 0px 5px, rgba(255, 46, 170, 0.1) 0px 10px, rgba(255, 42, 112, 0.05) 0px 5px;
+}
+
+@media (max-width: 1080px) {
+    .card .image-box img{
+        width: 180px;
+        height: 200px;
+    }
+
+    .card .image-box{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 998px) {
+    .card .image-box img{
+        width: 250px;
+        height: 250px;
+    }
+}
+
+@media (max-width: 720px) {
+    .card .image-box img{
+        width: 180px;
+        height: 180px;
+    }
+}
+
+@media (max-width: 590px) {
+    .card .image-box img{
+        width: 300px;
+        height: 300px;
+    }
+}
+
+@media (max-width: 430px) {
+    .card .image-box img{
+        width: 250px;
+        height: 250px;
+    }
+}
+
+@media (max-width: 375px) {
+    .card .image-box img{
+        width: 200px;
+        height: 200px;
+    }
+}
